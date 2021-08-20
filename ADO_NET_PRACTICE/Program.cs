@@ -14,7 +14,7 @@ namespace ADO_NET_PRACTICE
     {
         public static string GetConnectionString()
         {
-            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB; Integrated Security=SSPI; Initial Catalog=AdoPracticeTest";
+            string connectionString = @"Data Source=(localdb)\MSSQLLocalDB; Integrated Security=SSPI; Initial Catalog=AdoPracticeDb";
             return connectionString;
         }
 
@@ -266,7 +266,7 @@ namespace ADO_NET_PRACTICE
             //await ReadAsync(1015);
             //OpenConnection();
             //CreateCommand();
-            //ExecuteNonQuery("Test Insert", "Shola Nejo", "123-123456789", DateTime.Now);
+            ExecuteNonQuery("Test Insert", "Shola Nejo", "123-123456789", DateTime.Now);
             //ExecuteNonQuery("Another One", "Shola Nejo", "123-1234567890", new DateTime(1995,05,12));
             //ExecuteScalar();
             //ExecuteReader("");
